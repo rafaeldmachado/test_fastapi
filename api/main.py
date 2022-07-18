@@ -7,7 +7,7 @@ app = FastAPI(
 router = APIRouter()
 
 @router.get('/', status_code=200)
-def hello() -> root:
+def hello() -> dict:
     """
     Root Get
     """
